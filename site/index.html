@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Wow</title>
+  <link href="lib/decode.css" rel="stylesheet" type="text/css" media="all">
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfMPIMUKmdWZjYcMlAATalhHIDOYYzwc4"></script>
+  <script src="lib/d3.js"></script>
+  <script src="lib/crossfilter.js"></script>
+  <script src="chart.js"></script>
+  <script src="../parser/all/all.js"></script>
+
+</head>
+
+<body>
+  <div class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a href="/" class="navbar-brand">
+        <img src="./img/iewhitetransp.png" height="70px" style="margin: -20px">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <h3 style="color:white; margin-left: 50px;">WOW Cyclothon 2019</h3>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container" style="margin-top: 100px;">
+    <!-- <h1>Wow analyzer</h1>
+      <p>Á þessari síðu má sjá gögn úr Garmin Forerunner 910XT hlaupaúri mínu, sett fram með hjálp D3.js og Crossfilter.</p> -->
+    <div class="row">
+      <!-- <h4>Palli - kort</h4> -->
+      <div class="col-12" style="height: 70vh">
+        <div id="map-div"></div>
+      </div>
+      <p>Palli</p>
+      <label class="switch">
+        <input type="checkbox" id="palli" checked>
+      </label>
+    
+      <p>Valdi</p>
+      <label class="switch">
+        <input type="checkbox" id="valdi" checked>
+      </label>
+      <br/>
+      <div class="col-12">
+        <div id="charts">
+          <h3>Hraði í km/h
+            <a href="javascript:reset(0)" class="reset" style="font-size: 20px;">Núllstilla</a>
+          </h3>
+          <div id="val-chart" class="chart">
+          </div>
+          <span id="avgSpd"></span>
+          <br>
+    </div>
+  </div>
+  <script src="setup.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', init, false);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,3201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrainingCenterDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xsi:schemaLocation="http://www.garmin.com/xmlschemas/ActivityExtension/v2 http://www.garmin.com/xmlschemas/ActivityExtensionv2.xsd http://www.garmin.com/xmlschemas/FatCalories/v1 http://www.garmin.com/xmlschemas/fatcalorieextensionv1.xsd http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+  <Activities>
+    <Activity Sport="Biking">
+      <Id>2019-06-28T08:13:44Z</Id>
+      <Lap StartTime="2019-06-28T08:13:44Z">
+        <TotalTimeSeconds>759.222</TotalTimeSeconds>
+        <DistanceMeters>5704.06</DistanceMeters>
+        <MaximumSpeed>8.482</MaximumSpeed>
+        <Calories>155</Calories>
+        <Intensity>Resting</Intensity>
+        <Cadence>85</Cadence>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2019-06-28T08:13:44Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6464166641</LatitudeDegrees>
+              <LongitudeDegrees>-20.0634565204</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>39.4</AltitudeMeters>
+            <DistanceMeters>1.88</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>104</Value>
+            </HeartRateBpm>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>1.782</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:13:47Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6464475933</LatitudeDegrees>
+              <LongitudeDegrees>-20.0635444466</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>40.4</AltitudeMeters>
+            <DistanceMeters>7.43</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>107</Value>
+            </HeartRateBpm>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>1.708</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:13:49Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6464792769</LatitudeDegrees>
+              <LongitudeDegrees>-20.0636416767</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>41.6</AltitudeMeters>
+            <DistanceMeters>13.4</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>109</Value>
+            </HeartRateBpm>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>3.928</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:13:51Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6465262156</LatitudeDegrees>
+              <LongitudeDegrees>-20.0637928024</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>42.6</AltitudeMeters>
+            <DistanceMeters>22.54</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>110</Value>
+            </HeartRateBpm>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>4.983</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:13:53Z</Time>
+            <Position>
+              <LatitudeDegrees>63.646585308</LatitudeDegrees>
+              <LongitudeDegrees>-20.063968068</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>44.2</AltitudeMeters>
+            <DistanceMeters>33.43</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>112</Value>
+            </HeartRateBpm>
+            <Cadence>68</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>5.636</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:13:56Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6466809455</LatitudeDegrees>
+              <LongitudeDegrees>-20.0642803777</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>46</AltitudeMeters>
+            <DistanceMeters>52.23</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>114</Value>
+            </HeartRateBpm>
+            <Cadence>77</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.699</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:13:58Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6467486713</LatitudeDegrees>
+              <LongitudeDegrees>-20.0645098742</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>47.6</AltitudeMeters>
+            <DistanceMeters>65.88</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>117</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.886</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:00Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6468190793</LatitudeDegrees>
+              <LongitudeDegrees>-20.0647452381</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>49.2</AltitudeMeters>
+            <DistanceMeters>79.93</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>119</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.933</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:02Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6468925048</LatitudeDegrees>
+              <LongitudeDegrees>-20.0649877265</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>50.8</AltitudeMeters>
+            <DistanceMeters>94.47</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>121</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.306</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:03Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6469305586</LatitudeDegrees>
+              <LongitudeDegrees>-20.0651141256</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>48</AltitudeMeters>
+            <DistanceMeters>102.03</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>122</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.483</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:04Z</Time>
+            <Position>
+              <LatitudeDegrees>63.646969283</LatitudeDegrees>
+              <LongitudeDegrees>-20.0652409438</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>46.8</AltitudeMeters>
+            <DistanceMeters>109.66</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>123</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.483</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:07Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6470872164</LatitudeDegrees>
+              <LongitudeDegrees>-20.0656230748</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>48.6</AltitudeMeters>
+            <DistanceMeters>132.71</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>125</Value>
+            </HeartRateBpm>
+            <Cadence>90</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.623</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:09Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6471666768</LatitudeDegrees>
+              <LongitudeDegrees>-20.0658798125</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>50</AltitudeMeters>
+            <DistanceMeters>148.21</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>127</Value>
+            </HeartRateBpm>
+            <Cadence>91</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.651</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:11Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6472456343</LatitudeDegrees>
+              <LongitudeDegrees>-20.0661362149</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>51.6</AltitudeMeters>
+            <DistanceMeters>163.66</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>128</Value>
+            </HeartRateBpm>
+            <Cadence>91</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.614</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:13Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6473242566</LatitudeDegrees>
+              <LongitudeDegrees>-20.0663915277</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>53.4</AltitudeMeters>
+            <DistanceMeters>179.05</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>129</Value>
+            </HeartRateBpm>
+            <Cadence>91</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.726</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:15Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6474035494</LatitudeDegrees>
+              <LongitudeDegrees>-20.0666506123</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>55</AltitudeMeters>
+            <DistanceMeters>194.64</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>129</Value>
+            </HeartRateBpm>
+            <Cadence>92</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.754</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:17Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6474835966</LatitudeDegrees>
+              <LongitudeDegrees>-20.0669086911</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>56.4</AltitudeMeters>
+            <DistanceMeters>210.23</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>129</Value>
+            </HeartRateBpm>
+            <Cadence>92</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.735</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:19Z</Time>
+            <Position>
+              <LatitudeDegrees>63.647562135</LatitudeDegrees>
+              <LongitudeDegrees>-20.0671631657</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>58</AltitudeMeters>
+            <DistanceMeters>225.58</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>130</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.586</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:21Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6476389132</LatitudeDegrees>
+              <LongitudeDegrees>-20.0674137846</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>59.8</AltitudeMeters>
+            <DistanceMeters>240.66</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>130</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.446</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:23Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6477151047</LatitudeDegrees>
+              <LongitudeDegrees>-20.0676598772</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>61.2</AltitudeMeters>
+            <DistanceMeters>255.52</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>131</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.278</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:25Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6477924697</LatitudeDegrees>
+              <LongitudeDegrees>-20.0679050479</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>62.4</AltitudeMeters>
+            <DistanceMeters>270.42</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>131</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.418</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:27Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6478700023</LatitudeDegrees>
+              <LongitudeDegrees>-20.0681549124</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>63.8</AltitudeMeters>
+            <DistanceMeters>285.52</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>131</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.474</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:29Z</Time>
+            <Position>
+              <LatitudeDegrees>63.64794611</LatitudeDegrees>
+              <LongitudeDegrees>-20.0684055313</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>65.2</AltitudeMeters>
+            <DistanceMeters>300.56</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>131</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.455</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:31Z</Time>
+            <Position>
+              <LatitudeDegrees>63.648022553</LatitudeDegrees>
+              <LongitudeDegrees>-20.0686551444</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>66.8</AltitudeMeters>
+            <DistanceMeters>315.58</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>132</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.446</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:33Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6480978224</LatitudeDegrees>
+              <LongitudeDegrees>-20.0689052604</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>68.6</AltitudeMeters>
+            <DistanceMeters>330.54</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>132</Value>
+            </HeartRateBpm>
+            <Cadence>90</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.427</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:35Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6481738463</LatitudeDegrees>
+              <LongitudeDegrees>-20.0691552088</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>70.2</AltitudeMeters>
+            <DistanceMeters>345.55</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>132</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.455</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:37Z</Time>
+            <Position>
+              <LatitudeDegrees>63.648249032</LatitudeDegrees>
+              <LongitudeDegrees>-20.0694054086</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>71.8</AltitudeMeters>
+            <DistanceMeters>360.51</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>132</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.465</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:38Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6482871696</LatitudeDegrees>
+              <LongitudeDegrees>-20.0695287902</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>73.2</AltitudeMeters>
+            <DistanceMeters>367.96</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>132</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.455</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:40Z</Time>
+            <Position>
+              <LatitudeDegrees>63.648362942</LatitudeDegrees>
+              <LongitudeDegrees>-20.0697764754</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>74.6</AltitudeMeters>
+            <DistanceMeters>382.86</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>133</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.427</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:42Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6484385468</LatitudeDegrees>
+              <LongitudeDegrees>-20.0700217299</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>75.8</AltitudeMeters>
+            <DistanceMeters>397.65</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>134</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.39</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:44Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6485126428</LatitudeDegrees>
+              <LongitudeDegrees>-20.0702673197</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>77.4</AltitudeMeters>
+            <DistanceMeters>412.35</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>134</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.25</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:46Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6485860683</LatitudeDegrees>
+              <LongitudeDegrees>-20.0705079641</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>78.8</AltitudeMeters>
+            <DistanceMeters>426.82</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>135</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.185</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:48Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6486595776</LatitudeDegrees>
+              <LongitudeDegrees>-20.070745172</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>80.2</AltitudeMeters>
+            <DistanceMeters>441.14</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>135</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.063</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:50Z</Time>
+            <Position>
+              <LatitudeDegrees>63.648731662</LatitudeDegrees>
+              <LongitudeDegrees>-20.0709794462</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>81.6</AltitudeMeters>
+            <DistanceMeters>455.26</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>135</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.054</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:52Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6488039978</LatitudeDegrees>
+              <LongitudeDegrees>-20.0712145586</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>83</AltitudeMeters>
+            <DistanceMeters>469.43</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>135</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.073</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:54Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6488758307</LatitudeDegrees>
+              <LongitudeDegrees>-20.0714531913</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>84.4</AltitudeMeters>
+            <DistanceMeters>483.71</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>135</Value>
+            </HeartRateBpm>
+            <Cadence>83</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.091</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:56Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6489472445</LatitudeDegrees>
+              <LongitudeDegrees>-20.0716872979</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>85.8</AltitudeMeters>
+            <DistanceMeters>497.78</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>135</Value>
+            </HeartRateBpm>
+            <Cadence>83</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.063</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:14:58Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6490185745</LatitudeDegrees>
+              <LongitudeDegrees>-20.0719196443</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>87.4</AltitudeMeters>
+            <DistanceMeters>511.77</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>135</Value>
+            </HeartRateBpm>
+            <Cadence>83</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.017</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:00Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6490894854</LatitudeDegrees>
+              <LongitudeDegrees>-20.072150398</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>88.6</AltitudeMeters>
+            <DistanceMeters>525.67</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>135</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.961</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:02Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6491637491</LatitudeDegrees>
+              <LongitudeDegrees>-20.0723790564</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>90</AltitudeMeters>
+            <DistanceMeters>539.7</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>136</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.25</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:04Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6492403597</LatitudeDegrees>
+              <LongitudeDegrees>-20.072620539</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>91.2</AltitudeMeters>
+            <DistanceMeters>554.4</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>136</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.418</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:06Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6493162997</LatitudeDegrees>
+              <LongitudeDegrees>-20.0728640333</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>92.6</AltitudeMeters>
+            <DistanceMeters>569.13</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>136</Value>
+            </HeartRateBpm>
+            <Cadence>29</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.259</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:08Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6493898928</LatitudeDegrees>
+              <LongitudeDegrees>-20.073106857</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>93.8</AltitudeMeters>
+            <DistanceMeters>583.7</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>137</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.297</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:10Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6494650785</LatitudeDegrees>
+              <LongitudeDegrees>-20.0733488426</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>95</AltitudeMeters>
+            <DistanceMeters>598.32</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>137</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.306</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:11Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6495025456</LatitudeDegrees>
+              <LongitudeDegrees>-20.0734707154</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>96.2</AltitudeMeters>
+            <DistanceMeters>605.66</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>137</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.297</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:13Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6495768931</LatitudeDegrees>
+              <LongitudeDegrees>-20.073715467</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>97.4</AltitudeMeters>
+            <DistanceMeters>620.35</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>137</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.325</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:15Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6496535037</LatitudeDegrees>
+              <LongitudeDegrees>-20.0739627331</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>98.4</AltitudeMeters>
+            <DistanceMeters>635.29</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>137</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.437</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:17Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6497294437</LatitudeDegrees>
+              <LongitudeDegrees>-20.0742099993</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>99.6</AltitudeMeters>
+            <DistanceMeters>650.18</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.418</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:19Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6498063896</LatitudeDegrees>
+              <LongitudeDegrees>-20.0744585227</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>100.6</AltitudeMeters>
+            <DistanceMeters>665.18</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>137</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.511</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:22Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6499232333</LatitudeDegrees>
+              <LongitudeDegrees>-20.0748244766</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>102.2</AltitudeMeters>
+            <DistanceMeters>687.51</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.325</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:25Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6500340421</LatitudeDegrees>
+              <LongitudeDegrees>-20.0751876645</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>103.6</AltitudeMeters>
+            <DistanceMeters>709.33</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.203</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:28Z</Time>
+            <Position>
+              <LatitudeDegrees>63.650138732</LatitudeDegrees>
+              <LongitudeDegrees>-20.0755345076</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>105</AltitudeMeters>
+            <DistanceMeters>730.1</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>139</Value>
+            </HeartRateBpm>
+            <Cadence>79</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.746</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:31Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6502418295</LatitudeDegrees>
+              <LongitudeDegrees>-20.0758698676</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>106.6</AltitudeMeters>
+            <DistanceMeters>750.31</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>139</Value>
+            </HeartRateBpm>
+            <Cadence>81</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.737</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:34Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6503444239</LatitudeDegrees>
+              <LongitudeDegrees>-20.0762112625</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>107.8</AltitudeMeters>
+            <DistanceMeters>770.72</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>139</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.821</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:37Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6504482757</LatitudeDegrees>
+              <LongitudeDegrees>-20.0765603688</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>109.4</AltitudeMeters>
+            <DistanceMeters>791.54</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>139</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.979</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:39Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6505192704</LatitudeDegrees>
+              <LongitudeDegrees>-20.0767926313</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>110.6</AltitudeMeters>
+            <DistanceMeters>805.5</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>139</Value>
+            </HeartRateBpm>
+            <Cadence>83</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.007</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:42Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6506253015</LatitudeDegrees>
+              <LongitudeDegrees>-20.077140145</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>112</AltitudeMeters>
+            <DistanceMeters>826.39</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.951</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:44Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6506965477</LatitudeDegrees>
+              <LongitudeDegrees>-20.0773703121</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>113.2</AltitudeMeters>
+            <DistanceMeters>840.28</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>137</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.942</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:45Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6507323384</LatitudeDegrees>
+              <LongitudeDegrees>-20.0774848089</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>114.2</AltitudeMeters>
+            <DistanceMeters>847.22</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>137</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.942</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:47Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6508032493</LatitudeDegrees>
+              <LongitudeDegrees>-20.0777130481</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>115.4</AltitudeMeters>
+            <DistanceMeters>861.01</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>137</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.858</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:50Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6509061791</LatitudeDegrees>
+              <LongitudeDegrees>-20.0780508388</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>117.2</AltitudeMeters>
+            <DistanceMeters>881.31</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>136</Value>
+            </HeartRateBpm>
+            <Cadence>79</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.709</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:52Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6509726476</LatitudeDegrees>
+              <LongitudeDegrees>-20.0782716181</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>118.2</AltitudeMeters>
+            <DistanceMeters>894.52</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>136</Value>
+            </HeartRateBpm>
+            <Cadence>77</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.569</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:55Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6510740686</LatitudeDegrees>
+              <LongitudeDegrees>-20.0785941537</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>119.6</AltitudeMeters>
+            <DistanceMeters>914.09</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>136</Value>
+            </HeartRateBpm>
+            <Cadence>79</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.559</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:15:58Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6511811055</LatitudeDegrees>
+              <LongitudeDegrees>-20.0789295975</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>121.2</AltitudeMeters>
+            <DistanceMeters>934.55</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>136</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.119</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:01Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6512930878</LatitudeDegrees>
+              <LongitudeDegrees>-20.0792903546</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>122.8</AltitudeMeters>
+            <DistanceMeters>956.35</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>137</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.269</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:03Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6513676867</LatitudeDegrees>
+              <LongitudeDegrees>-20.0795328431</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>123.8</AltitudeMeters>
+            <DistanceMeters>970.96</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>137</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.25</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:04Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6514045671</LatitudeDegrees>
+              <LongitudeDegrees>-20.0796531234</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>124.2</AltitudeMeters>
+            <DistanceMeters>978.2</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.231</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:07Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6515138671</LatitudeDegrees>
+              <LongitudeDegrees>-20.0800151378</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>126</AltitudeMeters>
+            <DistanceMeters>999.88</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.203</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:09Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6515879631</LatitudeDegrees>
+              <LongitudeDegrees>-20.0802588835</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>127</AltitudeMeters>
+            <DistanceMeters>1014.51</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.297</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:12Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6517017893</LatitudeDegrees>
+              <LongitudeDegrees>-20.0806270167</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>128.8</AltitudeMeters>
+            <DistanceMeters>1036.72</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>90</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.493</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:15Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6518167052</LatitudeDegrees>
+              <LongitudeDegrees>-20.0810004305</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>130.4</AltitudeMeters>
+            <DistanceMeters>1059.23</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.437</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:18Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6519331299</LatitudeDegrees>
+              <LongitudeDegrees>-20.0813701563</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>131.6</AltitudeMeters>
+            <DistanceMeters>1081.67</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.334</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:20Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6520094052</LatitudeDegrees>
+              <LongitudeDegrees>-20.0816126447</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>133</AltitudeMeters>
+            <DistanceMeters>1096.39</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.306</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:23Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6521189567</LatitudeDegrees>
+              <LongitudeDegrees>-20.0819753297</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>134.6</AltitudeMeters>
+            <DistanceMeters>1118.12</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.157</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:26Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6522235628</LatitudeDegrees>
+              <LongitudeDegrees>-20.0823319796</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>135.8</AltitudeMeters>
+            <DistanceMeters>1139.29</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.017</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:28Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6522927973</LatitudeDegrees>
+              <LongitudeDegrees>-20.0825626496</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>137.2</AltitudeMeters>
+            <DistanceMeters>1153.08</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.877</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:31Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6523983255</LatitudeDegrees>
+              <LongitudeDegrees>-20.0829077326</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>138.4</AltitudeMeters>
+            <DistanceMeters>1173.83</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>83</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.933</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:34Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6525048595</LatitudeDegrees>
+              <LongitudeDegrees>-20.0832587667</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>140</AltitudeMeters>
+            <DistanceMeters>1194.89</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.101</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:36Z</Time>
+            <Position>
+              <LatitudeDegrees>63.65257686</LatitudeDegrees>
+              <LongitudeDegrees>-20.08349807</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>141.2</AltitudeMeters>
+            <DistanceMeters>1209.2</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.138</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:40Z</Time>
+            <Position>
+              <LatitudeDegrees>63.652724633</LatitudeDegrees>
+              <LongitudeDegrees>-20.0839774311</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>142.6</AltitudeMeters>
+            <DistanceMeters>1238.1</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>139</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.213</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:43Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6528327595</LatitudeDegrees>
+              <LongitudeDegrees>-20.0843330752</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>144</AltitudeMeters>
+            <DistanceMeters>1259.45</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>83</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.961</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:46Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6529384553</LatitudeDegrees>
+              <LongitudeDegrees>-20.0846696924</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>145.2</AltitudeMeters>
+            <DistanceMeters>1279.87</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>79</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.755</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:49Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6530474201</LatitudeDegrees>
+              <LongitudeDegrees>-20.0849961676</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>146.6</AltitudeMeters>
+            <DistanceMeters>1300.1</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.007</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:52Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6531611625</LatitudeDegrees>
+              <LongitudeDegrees>-20.0853486266</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>148</AltitudeMeters>
+            <DistanceMeters>1321.68</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.231</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:55Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6532754079</LatitudeDegrees>
+              <LongitudeDegrees>-20.0857030973</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>149.6</AltitudeMeters>
+            <DistanceMeters>1343.37</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.231</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:16:59Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6534307245</LatitudeDegrees>
+              <LongitudeDegrees>-20.0861810334</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>151</AltitudeMeters>
+            <DistanceMeters>1372.7</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>139</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.39</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:03Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6535884719</LatitudeDegrees>
+              <LongitudeDegrees>-20.0866639148</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>152.4</AltitudeMeters>
+            <DistanceMeters>1402.39</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>139</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.446</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:06Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6537072435</LatitudeDegrees>
+              <LongitudeDegrees>-20.0870247558</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>153.6</AltitudeMeters>
+            <DistanceMeters>1424.63</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.353</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:12Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6539490614</LatitudeDegrees>
+              <LongitudeDegrees>-20.0877415761</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>155.2</AltitudeMeters>
+            <DistanceMeters>1469.22</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>139</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.502</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:15Z</Time>
+            <Position>
+              <LatitudeDegrees>63.654070599</LatitudeDegrees>
+              <LongitudeDegrees>-20.0880961306</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>156.6</AltitudeMeters>
+            <DistanceMeters>1491.4</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>140</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.315</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:19Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6542304419</LatitudeDegrees>
+              <LongitudeDegrees>-20.0885663554</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>158</AltitudeMeters>
+            <DistanceMeters>1520.72</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>139</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.306</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:23Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6543912068</LatitudeDegrees>
+              <LongitudeDegrees>-20.0890314672</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>159.4</AltitudeMeters>
+            <DistanceMeters>1549.91</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.287</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:27Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6545528099</LatitudeDegrees>
+              <LongitudeDegrees>-20.0895005185</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>160.8</AltitudeMeters>
+            <DistanceMeters>1579.31</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>139</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.362</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:30Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6546747666</LatitudeDegrees>
+              <LongitudeDegrees>-20.0898476969</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>162.4</AltitudeMeters>
+            <DistanceMeters>1601.23</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>140</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.315</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:33Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6547992378</LatitudeDegrees>
+              <LongitudeDegrees>-20.0901920255</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>163.6</AltitudeMeters>
+            <DistanceMeters>1623.22</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>141</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.315</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:38Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6550042592</LatitudeDegrees>
+              <LongitudeDegrees>-20.0907601509</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>165</AltitudeMeters>
+            <DistanceMeters>1659.48</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.241</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:43Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6552048381</LatitudeDegrees>
+              <LongitudeDegrees>-20.0913042203</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>166.4</AltitudeMeters>
+            <DistanceMeters>1694.5</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.933</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:48Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6554154754</LatitudeDegrees>
+              <LongitudeDegrees>-20.0918502174</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>168</AltitudeMeters>
+            <DistanceMeters>1730.32</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>141</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.353</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:52Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6555886455</LatitudeDegrees>
+              <LongitudeDegrees>-20.0923031755</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>169.4</AltitudeMeters>
+            <DistanceMeters>1759.92</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>141</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.427</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:56Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6557634082</LatitudeDegrees>
+              <LongitudeDegrees>-20.0927590672</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>170.8</AltitudeMeters>
+            <DistanceMeters>1789.74</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>141</Value>
+            </HeartRateBpm>
+            <Cadence>91</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.493</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:17:57Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6558080837</LatitudeDegrees>
+              <LongitudeDegrees>-20.0928751566</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>171.2</AltitudeMeters>
+            <DistanceMeters>1797.35</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>91</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.595</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:18:02Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6560286116</LatitudeDegrees>
+              <LongitudeDegrees>-20.0934424438</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>172.6</AltitudeMeters>
+            <DistanceMeters>1834.68</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.427</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:18:06Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6562069785</LatitudeDegrees>
+              <LongitudeDegrees>-20.0938924681</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>174</AltitudeMeters>
+            <DistanceMeters>1864.55</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>90</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.483</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:18:11Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6564340442</LatitudeDegrees>
+              <LongitudeDegrees>-20.0944554806</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>175.4</AltitudeMeters>
+            <DistanceMeters>1902.22</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>141</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.521</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:18:16Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6566520575</LatitudeDegrees>
+              <LongitudeDegrees>-20.0950061716</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>176.6</AltitudeMeters>
+            <DistanceMeters>1938.75</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>141</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.259</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:18:22Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6569186859</LatitudeDegrees>
+              <LongitudeDegrees>-20.09565535</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>178.2</AltitudeMeters>
+            <DistanceMeters>1982.54</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.325</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:18:28Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6571897566</LatitudeDegrees>
+              <LongitudeDegrees>-20.0963054504</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>179.6</AltitudeMeters>
+            <DistanceMeters>2026.7</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>144</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.465</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:18:33Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6574241985</LatitudeDegrees>
+              <LongitudeDegrees>-20.0968476757</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>181</AltitudeMeters>
+            <DistanceMeters>2064.17</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>144</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.399</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:18:38Z</Time>
+            <Position>
+              <LatitudeDegrees>63.657654617</LatitudeDegrees>
+              <LongitudeDegrees>-20.097379256</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>182.4</AltitudeMeters>
+            <DistanceMeters>2100.96</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.362</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:18:46Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6580324732</LatitudeDegrees>
+              <LongitudeDegrees>-20.0982182845</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>184.2</AltitudeMeters>
+            <DistanceMeters>2160.13</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>92</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.688</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:18:52Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6583279353</LatitudeDegrees>
+              <LongitudeDegrees>-20.0988691393</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>185.4</AltitudeMeters>
+            <DistanceMeters>2206.21</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>94</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.782</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:18:58Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6586306058</LatitudeDegrees>
+              <LongitudeDegrees>-20.0995247718</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>187.2</AltitudeMeters>
+            <DistanceMeters>2253.04</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>91</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.763</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:19:06Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6590341106</LatitudeDegrees>
+              <LongitudeDegrees>-20.1003730204</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>188.4</AltitudeMeters>
+            <DistanceMeters>2314.59</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>90</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.623</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:19:08Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6591350287</LatitudeDegrees>
+              <LongitudeDegrees>-20.1005839929</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>188.8</AltitudeMeters>
+            <DistanceMeters>2329.95</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>91</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.688</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:19:14Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6594361067</LatitudeDegrees>
+              <LongitudeDegrees>-20.1012242027</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>190.6</AltitudeMeters>
+            <DistanceMeters>2376.12</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>92</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.726</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:19:22Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6598488316</LatitudeDegrees>
+              <LongitudeDegrees>-20.1020597108</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>191.4</AltitudeMeters>
+            <DistanceMeters>2438</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.782</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:19:28Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6601509992</LatitudeDegrees>
+              <LongitudeDegrees>-20.1026694104</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>192.6</AltitudeMeters>
+            <DistanceMeters>2483.24</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>79</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.213</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:19:36Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6605592817</LatitudeDegrees>
+              <LongitudeDegrees>-20.1034431439</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>194.2</AltitudeMeters>
+            <DistanceMeters>2542.73</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.856</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:19:44Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6609837413</LatitudeDegrees>
+              <LongitudeDegrees>-20.1042678393</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>195.8</AltitudeMeters>
+            <DistanceMeters>2605.24</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.884</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:19:45Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6610376369</LatitudeDegrees>
+              <LongitudeDegrees>-20.1043709368</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>196</AltitudeMeters>
+            <DistanceMeters>2613.12</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.894</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:19:47Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6611448415</LatitudeDegrees>
+              <LongitudeDegrees>-20.1045785565</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>196.4</AltitudeMeters>
+            <DistanceMeters>2628.89</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.903</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:19:53Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6614726577</LatitudeDegrees>
+              <LongitudeDegrees>-20.1052128151</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>197.6</AltitudeMeters>
+            <DistanceMeters>2677.08</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>141</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.118</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:20:01Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6619039066</LatitudeDegrees>
+              <LongitudeDegrees>-20.1060608961</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>199</AltitudeMeters>
+            <DistanceMeters>2740.92</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.866</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:20:04Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6620628275</LatitudeDegrees>
+              <LongitudeDegrees>-20.1063723676</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>199.4</AltitudeMeters>
+            <DistanceMeters>2764.4</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.819</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:20:12Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6624869518</LatitudeDegrees>
+              <LongitudeDegrees>-20.1072089653</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>200.6</AltitudeMeters>
+            <DistanceMeters>2827.27</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>144</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.875</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:20:18Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6628006026</LatitudeDegrees>
+              <LongitudeDegrees>-20.1078321598</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>201.4</AltitudeMeters>
+            <DistanceMeters>2873.9</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>144</Value>
+            </HeartRateBpm>
+            <Cadence>80</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.269</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:20:27Z</Time>
+            <Position>
+              <LatitudeDegrees>63.663251549</LatitudeDegrees>
+              <LongitudeDegrees>-20.1086907182</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>203.2</AltitudeMeters>
+            <DistanceMeters>2939.74</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.66</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:20:32Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6635078676</LatitudeDegrees>
+              <LongitudeDegrees>-20.1091896929</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>203.8</AltitudeMeters>
+            <DistanceMeters>2977.52</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>141</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.577</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:20:40Z</Time>
+            <Position>
+              <LatitudeDegrees>63.663921766</LatitudeDegrees>
+              <LongitudeDegrees>-20.1099975407</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>205</AltitudeMeters>
+            <DistanceMeters>3038.59</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>144</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.744</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:20:45Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6641890649</LatitudeDegrees>
+              <LongitudeDegrees>-20.1105107646</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>205.8</AltitudeMeters>
+            <DistanceMeters>3077.75</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>145</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.903</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:20:53Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6646101717</LatitudeDegrees>
+              <LongitudeDegrees>-20.1113458537</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>207</AltitudeMeters>
+            <DistanceMeters>3140.31</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>144</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.66</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:21:00Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6649712641</LatitudeDegrees>
+              <LongitudeDegrees>-20.1120544598</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>208</AltitudeMeters>
+            <DistanceMeters>3193.71</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>145</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.726</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:21:08Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6653913651</LatitudeDegrees>
+              <LongitudeDegrees>-20.1128781494</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>209</AltitudeMeters>
+            <DistanceMeters>3255.81</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>145</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.754</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:21:16Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6657984741</LatitudeDegrees>
+              <LongitudeDegrees>-20.1136735082</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>210.2</AltitudeMeters>
+            <DistanceMeters>3315.91</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>144</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.446</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:21:24Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6662122887</LatitudeDegrees>
+              <LongitudeDegrees>-20.1144592278</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>210.8</AltitudeMeters>
+            <DistanceMeters>3376.25</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.688</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:21:32Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6666358262</LatitudeDegrees>
+              <LongitudeDegrees>-20.1152711827</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>211.8</AltitudeMeters>
+            <DistanceMeters>3438.27</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.884</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:21:40Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6670735292</LatitudeDegrees>
+              <LongitudeDegrees>-20.1161286514</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>212.4</AltitudeMeters>
+            <DistanceMeters>3502.94</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.024</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:21:48Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6675072089</LatitudeDegrees>
+              <LongitudeDegrees>-20.1169909816</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>213.2</AltitudeMeters>
+            <DistanceMeters>3567.45</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>91</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.202</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:21:56Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6679608375</LatitudeDegrees>
+              <LongitudeDegrees>-20.1178837381</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>214</AltitudeMeters>
+            <DistanceMeters>3634.61</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.444</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:22:04Z</Time>
+            <Position>
+              <LatitudeDegrees>63.668401977</LatitudeDegrees>
+              <LongitudeDegrees>-20.1187495049</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>214.2</AltitudeMeters>
+            <DistanceMeters>3699.85</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>83</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.062</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:22:12Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6688559409</LatitudeDegrees>
+              <LongitudeDegrees>-20.1196291856</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>215</AltitudeMeters>
+            <DistanceMeters>3766.62</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.388</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:22:20Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6693002656</LatitudeDegrees>
+              <LongitudeDegrees>-20.1205494348</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>215.6</AltitudeMeters>
+            <DistanceMeters>3833.93</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>141</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.416</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:22:28Z</Time>
+            <Position>
+              <LatitudeDegrees>63.669728497</LatitudeDegrees>
+              <LongitudeDegrees>-20.1215018705</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>216.2</AltitudeMeters>
+            <DistanceMeters>3901.03</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.202</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:22:36Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6701216921</LatitudeDegrees>
+              <LongitudeDegrees>-20.1224549767</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>216.4</AltitudeMeters>
+            <DistanceMeters>3965.44</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.931</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:22:44Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6704866402</LatitudeDegrees>
+              <LongitudeDegrees>-20.1234156266</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>216.8</AltitudeMeters>
+            <DistanceMeters>4028.03</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>78</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.67</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:22:52Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6708287895</LatitudeDegrees>
+              <LongitudeDegrees>-20.1243613567</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>217.4</AltitudeMeters>
+            <DistanceMeters>4088.43</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.183</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:23:00Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6711838469</LatitudeDegrees>
+              <LongitudeDegrees>-20.1254235953</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>217.8</AltitudeMeters>
+            <DistanceMeters>4154.26</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.323</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:23:03Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6713129282</LatitudeDegrees>
+              <LongitudeDegrees>-20.1258349791</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>217.8</AltitudeMeters>
+            <DistanceMeters>4179.2</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.276</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:23:11Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6716361344</LatitudeDegrees>
+              <LongitudeDegrees>-20.1269367803</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>217.6</AltitudeMeters>
+            <DistanceMeters>4244.57</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.09</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:23:13Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6717139184</LatitudeDegrees>
+              <LongitudeDegrees>-20.1272134669</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>217.6</AltitudeMeters>
+            <DistanceMeters>4260.78</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>142</Value>
+            </HeartRateBpm>
+            <Cadence>83</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.099</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:23:19Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6719344463</LatitudeDegrees>
+              <LongitudeDegrees>-20.1280451193</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>217.2</AltitudeMeters>
+            <DistanceMeters>4308.74</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>144</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.922</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:23:26Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6721821316</LatitudeDegrees>
+              <LongitudeDegrees>-20.1290325914</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>217.2</AltitudeMeters>
+            <DistanceMeters>4364.89</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>147</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.099</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:23:34Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6724404618</LatitudeDegrees>
+              <LongitudeDegrees>-20.130190216</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>217.4</AltitudeMeters>
+            <DistanceMeters>4429.03</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>147</Value>
+            </HeartRateBpm>
+            <Cadence>80</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.763</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:23:42Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6726815253</LatitudeDegrees>
+              <LongitudeDegrees>-20.1313040871</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>217.8</AltitudeMeters>
+            <DistanceMeters>4490.38</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>147</Value>
+            </HeartRateBpm>
+            <Cadence>81</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.8</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:23:45Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6727681104</LatitudeDegrees>
+              <LongitudeDegrees>-20.1317286305</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>218</AltitudeMeters>
+            <DistanceMeters>4513.51</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>146</Value>
+            </HeartRateBpm>
+            <Cadence>79</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.66</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:23:53Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6729908176</LatitudeDegrees>
+              <LongitudeDegrees>-20.1328720897</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>218.6</AltitudeMeters>
+            <DistanceMeters>4575.32</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>147</Value>
+            </HeartRateBpm>
+            <Cadence>82</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.912</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:23:58Z</Time>
+            <Position>
+              <LatitudeDegrees>63.673130041</LatitudeDegrees>
+              <LongitudeDegrees>-20.1335995551</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>218.8</AltitudeMeters>
+            <DistanceMeters>4614.53</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>146</Value>
+            </HeartRateBpm>
+            <Cadence>81</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.791</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:24:06Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6733581964</LatitudeDegrees>
+              <LongitudeDegrees>-20.1347680762</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>219.8</AltitudeMeters>
+            <DistanceMeters>4677.72</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>146</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.81</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:24:14Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6735775508</LatitudeDegrees>
+              <LongitudeDegrees>-20.1359190792</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>220.2</AltitudeMeters>
+            <DistanceMeters>4739.74</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>145</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.688</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:24:22Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6737908702</LatitudeDegrees>
+              <LongitudeDegrees>-20.1370435953</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>220.6</AltitudeMeters>
+            <DistanceMeters>4800.27</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>147</Value>
+            </HeartRateBpm>
+            <Cadence>83</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.493</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:24:31Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6740243062</LatitudeDegrees>
+              <LongitudeDegrees>-20.1382201631</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>221.4</AltitudeMeters>
+            <DistanceMeters>4864.07</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>147</Value>
+            </HeartRateBpm>
+            <Cadence>83</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.511</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:24:39Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6742433254</LatitudeDegrees>
+              <LongitudeDegrees>-20.1393663045</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>222.2</AltitudeMeters>
+            <DistanceMeters>4925.84</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>148</Value>
+            </HeartRateBpm>
+            <Cadence>88</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.95</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:24:47Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6744670384</LatitudeDegrees>
+              <LongitudeDegrees>-20.140534658</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>222.6</AltitudeMeters>
+            <DistanceMeters>4988.82</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>149</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.828</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:24:55Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6746950261</LatitudeDegrees>
+              <LongitudeDegrees>-20.1416971441</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>222.8</AltitudeMeters>
+            <DistanceMeters>5051.73</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>147</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.726</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:25:04Z</Time>
+            <Position>
+              <LatitudeDegrees>63.674928546</LatitudeDegrees>
+              <LongitudeDegrees>-20.1429332234</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>223.8</AltitudeMeters>
+            <DistanceMeters>5118.22</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>148</Value>
+            </HeartRateBpm>
+            <Cadence>80</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.287</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:25:13Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6751628201</LatitudeDegrees>
+              <LongitudeDegrees>-20.1441656146</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>224.2</AltitudeMeters>
+            <DistanceMeters>5184.58</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>147</Value>
+            </HeartRateBpm>
+            <Cadence>83</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.437</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:25:22Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6753956694</LatitudeDegrees>
+              <LongitudeDegrees>-20.1454145182</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>224.8</AltitudeMeters>
+            <DistanceMeters>5251.64</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>146</Value>
+            </HeartRateBpm>
+            <Cadence>83</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.418</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:25:30Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6756243277</LatitudeDegrees>
+              <LongitudeDegrees>-20.1465516072</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>225.6</AltitudeMeters>
+            <DistanceMeters>5313.43</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>147</Value>
+            </HeartRateBpm>
+            <Cadence>89</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>8.024</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:25:38Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6758468673</LatitudeDegrees>
+              <LongitudeDegrees>-20.1477264147</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>226.6</AltitudeMeters>
+            <DistanceMeters>5376.66</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>147</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.8</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:25:46Z</Time>
+            <Position>
+              <LatitudeDegrees>63.67607628</LatitudeDegrees>
+              <LongitudeDegrees>-20.1488809381</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>227.2</AltitudeMeters>
+            <DistanceMeters>5439.26</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>147</Value>
+            </HeartRateBpm>
+            <Cadence>85</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.81</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:25:53Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6762786191</LatitudeDegrees>
+              <LongitudeDegrees>-20.1498762891</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>227.4</AltitudeMeters>
+            <DistanceMeters>5493.46</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>148</Value>
+            </HeartRateBpm>
+            <Cadence>86</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.716</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:26:01Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6765313335</LatitudeDegrees>
+              <LongitudeDegrees>-20.1509785932</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>227.8</AltitudeMeters>
+            <DistanceMeters>5554.86</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>148</Value>
+            </HeartRateBpm>
+            <Cadence>84</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.651</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:26:09Z</Time>
+            <Position>
+              <LatitudeDegrees>63.676806679</LatitudeDegrees>
+              <LongitudeDegrees>-20.1520692464</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>228.6</AltitudeMeters>
+            <DistanceMeters>5616.97</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>149</Value>
+            </HeartRateBpm>
+            <Cadence>87</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>7.856</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:26:17Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6770852935</LatitudeDegrees>
+              <LongitudeDegrees>-20.153083792</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>228.8</AltitudeMeters>
+            <DistanceMeters>5676.01</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>146</Value>
+            </HeartRateBpm>
+            <Cadence>0</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>6.205</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:26:20Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6771579646</LatitudeDegrees>
+              <LongitudeDegrees>-20.1533371769</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>228.8</AltitudeMeters>
+            <DistanceMeters>5690.94</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>143</Value>
+            </HeartRateBpm>
+            <Cadence>0</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>4.05</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:26:22Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6771980301</LatitudeDegrees>
+              <LongitudeDegrees>-20.1534528472</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>229</AltitudeMeters>
+            <DistanceMeters>5698.2</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>140</Value>
+            </HeartRateBpm>
+            <Cadence>0</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>3.527</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2019-06-28T08:26:24Z</Time>
+            <Position>
+              <LatitudeDegrees>63.6772344075</LatitudeDegrees>
+              <LongitudeDegrees>-20.1535381749</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>228.8</AltitudeMeters>
+            <DistanceMeters>5704.06</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>138</Value>
+            </HeartRateBpm>
+            <Cadence>0</Cadence>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>2.79</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+        </Track>
+      </Lap>
+    </Activity>
+  </Activities>
+</TrainingCenterDatabase>
