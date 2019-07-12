@@ -101,9 +101,10 @@ function processPerson(person) {
             if (currentPoints[2] < minElev) {
                 minElev = currentPoints[2];
             }
+            currentPoints = currentPoints[0];
         }
         elevGain = elevGain + maxElev - minElev
-        pts = pts.concat(currentPoints[0]);
+        pts = pts.concat(currentPoints);
     })
 
     let maxSpeed = 0;
