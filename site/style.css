@@ -8,6 +8,10 @@ body {
   /* width: 960px; */
 }
   
+
+.bg-primary {
+  background-color: #ac0533 !important
+}
 h1, h2 {
     font-family: "Yanone Kaffeesatz";
     text-rendering: optimizeLegibility;

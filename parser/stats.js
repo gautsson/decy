@@ -3,7 +3,7 @@ const fs = require("fs");
 
 function start() {
     let prefix = "data"
-    let dirs = ["vt", "tg", "pg", "fj"];
+    let dirs = ["vt", "fj", "tg", "pg"];
 
     dirs.forEach(dir => {
         processPerson(prefix + "/" + dir);
@@ -13,7 +13,8 @@ function start() {
 function processFileInMemory(goodies) {
     let pts = [];
     let id = 0;
-
+    let maxElev = 0;
+    let minElev = 1000;
     goodies.forEach(goodie => {
         if (goodie.Position) {
             let time = goodie.Time._text;
@@ -32,6 +33,13 @@ function processFileInMemory(goodies) {
             let cad = goodie.Cadence ? Number(goodie.Cadence._text) : 0;
             let hr = goodie.HeartRateBpm ? Number(goodie.HeartRateBpm.Value._text) : 0;
     
+         
+            if (elev > maxElev) {
+                maxElev = elev;
+            }
+            if (elev < minElev) {
+                minElev = elev;
+            }
             let newObj =  {id: id, elev: elev, speed: speed, lat: lat, lng: lng, cad: cad, heart_rate: hr, time: time }
             if (goodie.Extensions["ns3:TPX"] && goodie.Extensions["ns3:TPX"]["ns3:Watts"]) {
                 newObj.pwr = pwr;
@@ -41,7 +49,7 @@ function processFileInMemory(goodies) {
             id += 1;
         }
     })
-    return pts;
+    return [pts, maxElev, minElev];
 }
 
 function processPerson(person) {
@@ -50,13 +58,15 @@ function processPerson(person) {
     let pts = [];
     let distance = 0;
     let time = 0;
-
+    let elevGain = 0;
     // get all files for person
     let filenames = fs.readdirSync("./" + person);
 
     filenames.forEach((filename, idx) => {
         idx += 1;
         let currentPoints = [];
+        let maxElev = 0;
+        let minElev = 1000;
         // console.log("Processing file: " + idx)
 
         let data = fs.readFileSync("./" + person + "/" + filename);
@@ -69,24 +79,38 @@ function processPerson(person) {
         if (Array.isArray(activity.Lap)) {
             activity.Lap.forEach((lap) => {
                 let newPoints = processFileInMemory(lap.Track.Trackpoint)
-                currentPoints = currentPoints.concat(newPoints)
+                currentPoints = currentPoints.concat(newPoints[0])
                 distance = distance + Number(lap.DistanceMeters._text) 
                 time = time + Number(lap.TotalTimeSeconds._text)
+    
+                if (newPoints[1] > maxElev) {
+                    maxElev = newPoints[1];
+                }
+                if (newPoints[2] < minElev) {
+                    minElev = newPoints[2];
+                }
             })
         } 
         else {
             currentPoints = processFileInMemory(activity.Lap.Track.Trackpoint)
             distance = distance + Number(activity.Lap.DistanceMeters._text) 
             time = time + Number(activity.Lap.TotalTimeSeconds._text)
+            if (currentPoints[1] > maxElev) {
+                maxElev = currentPoints[1];
+            }
+            if (currentPoints[2] < minElev) {
+                minElev = currentPoints[2];
+            }
         }
-        pts = pts.concat(currentPoints);
+        elevGain = elevGain + maxElev - minElev
+        pts = pts.concat(currentPoints[0]);
     })
 
     let maxSpeed = 0;
     let maxHr = 0;
     let maxCad = 0;
-    let maxElev = 0;
     let maxPwr = 0;
+    let maxElev = 0;
     let avgHr = 0;
     let avgCad = 0;
     let avgPwr = 0;
@@ -129,17 +153,26 @@ function processPerson(person) {
 
     console.log("")
     console.log("Max speed: " + maxSpeed);
-    console.log("Max HR: " + maxHr);
-    console.log("Max cadence: " + maxCad);
-    console.log("Max elev: " + maxElev);
-    console.log("Max power: " + maxPwr);
     console.log("Average speed: " + (distance/1000)/(time/(60*60)))
+
+    console.log("Max HR: " + maxHr);
     console.log("Average Heart Rate: " + avgHr / hrPtsQty)
+
+    console.log("Max cadence: " + maxCad);
     console.log("Average cadence: " + avgCad / cadPtsQty)
+
+    console.log("Max power: " + maxPwr);
     console.log("Average power: " + avgPwr / pwrPtsQty)
+
+    console.log("Elev Gain: " + elevGain);
+    // console.log("Max elev: " + maxElev);
+
+    console.log("Distance: " + distance/1000 + " km")
     console.log("Time: " + time/(60*60) + " hours")
     console.log("Rest: " + (43.77 - time/(60*60)))
-    console.log("Distance: " + distance/1000 + " km")
+
+    console.log("Number of activities: " + filenames.length)
+    console.log("Average length of a leg: " + (distance/1000) / filenames.length + " km")
     console.log("\nDone with " + person + "\n")
 }
 

@@ -18,7 +18,7 @@ var lngDimension;
 var idDimension;
 var idGrouping;
 var all;
-
+var checkedPersons = ["pg", "vt", "fj", "tg"]
 
 function init() {
     initMap();
@@ -46,8 +46,6 @@ function init() {
         lngDimension.filterRange([southWest.lng(), northEast.lng()]);
         latDimension.filterRange([southWest.lat(), northEast.lat()]);
 
-        // NOTE: may want to debounce here, perhaps on requestAnimationFrame
-        updateCharts();
     });
 
     // dimension and group for looking up currently selected markers
@@ -87,15 +85,13 @@ function initMap() {
             color = "transparent";
         } else {
             if (points[i].usr === "pg") {
-                color = "red";
-            } else if (points[i].usr === "thg") {
-                color = "blue"
-            }
-            else if (points[i].usr === "vt") {
-                color = "yellow"
-            }
-            else if (points[i].usr === "fj") {
-                color = "green"
+                color = "#e6194B";
+            } else if (points[i].usr === "tg") {
+                color = "#3cb44b"
+            } else if (points[i].usr === "vt") {
+                color = "#42d4f4"
+            } else if (points[i].usr === "fj") {
+                color = "#000000"
             }
         }
 
@@ -117,83 +113,12 @@ function initMap() {
 
 function initCrossfilter() {
     values = crossfilter(points);
-    // console.log(filter.groupAll().reduceCount().value())
     all = values.groupAll();
-    // simple dimensions and groupings for major variables
-    val1Dimension = values.dimension(
-        function (p) {
-            return p.speed;
-        });
-    val1Grouping = val1Dimension.group(
-        function (v) {
-            // return Math.floor(v);
-            return Math.round(v * 10) / 10;
-            // return v;
-        });
-
-    var
-
-        // initialize charts (helper function in chart.js)
-        // taken directly from crossfilter's example
-        charts = [
-            barChart()
-            .dimension(val1Dimension)
-            .group(val1Grouping)
-            .x(d3.scale.linear()
-                .domain([0, 100])
-                .rangeRound([0, 40 * 26]))
-        ];
-
-    // bind charts to dom
-    domCharts = d3.selectAll(".chart")
-        .data(charts)
-        .each(function (chart) {
-            chart.on("brush", renderAll).on("brushend", renderAll);
-        });
-
 }
 
 // Renders the specified chart
 function render(method) {
     d3.select(this).call(method);
-}
-
-// Renders all of the charts
-function updateCharts() {
-    domCharts.each(render);
-
-    // let avgSpd = Number(all.reduceSum(function (fact) {
-    //     return fact.speed;
-    // }).value() / all.reduceCount().value()).toFixed(0);
-    // let avgHr = Number(all.reduceSum(function (fact) {
-    //     return fact.heart_rate;
-    // }).value() / all.reduceCount().value()).toFixed(0);
-    // let avgCad = Number(all.reduceSum(function (fact) {
-    //     return fact.cad;
-    // }).value() / all.reduceCount().value()).toFixed(0);
-    // let avgElev = Number(all.reduceSum(function (fact) {
-    //     return fact.elev;
-    // }).value() / all.reduceCount().value()).toFixed(0);
-    // let avgPwr = Number(all.reduceSum(function (fact) {
-    //     return fact.pwr;
-    // }).value() / all.reduceCount().value()).toFixed(0);
-    // // let avg
-    // if (avgSpd !== NaN) {
-    //     d3.select("#avgSpd").text("Meðaltal: " + avgSpd + " km/h");
-    // }
-    // if (avgHr !== NaN) {
-    //     d3.select("#avgHr").text("Meðaltal: " + avgHr + " slög/min");
-    // }
-    // if (avgCad !== NaN) {
-    //     d3.select("#avgCad").text("Meðaltal: " + avgCad + " snúningar / min");
-    // }
-    // if (avgElev !== NaN) {
-    //     d3.select("#avgElev").text("Meðaltal: " + avgElev + " metrar yfir sjávarmáli");
-    // }
-    // if (avgPwr !== NaN) {
-    //     d3.select("#avgPwr").text("Meðaltal: " + avgPwr + " W");
-    // }
-
 }
 
 // set visibility of markers based on crossfilter
@@ -209,34 +134,81 @@ function updatePolylines() {
 
 // Whenever the brush moves, re-render charts and map markers
 function renderAll() {
+
+    if (checkedPersons.length === 0) {
+        usrDimension.filterAll();
+    }
+    else {
+        usrDimension.filter(d => {
+            if (checkedPersons.length === 1) {
+                return d !== checkedPersons[0]
+            }
+            if (checkedPersons.length === 2) {
+                return d !== checkedPersons[0] && d !== checkedPersons[1]
+            }
+            if (checkedPersons.length === 3) {
+                return d !== checkedPersons[0] && d !== checkedPersons[1] && d !== checkedPersons[2]
+            }
+            if (checkedPersons.length === 4) {
+                return d !== checkedPersons[0] && d !== checkedPersons[1] && d !== checkedPersons[2] && d !== checkedPersons[3]
+            }
+        })
+    }
+
+    usrDimension.groupAll()
     updateMarkers();
     updatePolylines();
-    updateCharts();
 }
 
 
-document.getElementById("palli").addEventListener('change', function () {
+
+document.getElementById("palli").addEventListener("change", function () {
     if (!this.checked) {
-        usrDimension.filter("pg").groupAll()
+        checkedPersons.push("pg")
     } else {
-        usrDimension.filter("thg").groupAll()
+        checkedPersons = checkedPersons.filter(item => {
+            return item !== "pg"
+        })
+    }
+
+    renderAll();
+});
+
+document.getElementById("valdi").addEventListener("change", function () {
+    if (!this.checked) {
+        checkedPersons.push("tg")
+    } else {
+        checkedPersons = checkedPersons.filter(item => {
+            return item !== "tg"
+        })
     }
     renderAll();
 });
 
-document.getElementById("valdi").addEventListener('change', function () {
+document.getElementById("vidar").addEventListener("change", function () {
     if (!this.checked) {
-        usrDimension.filter("thg").groupAll()
+        checkedPersons.push("vt")
     } else {
-        usrDimension.filterAll().groupAll()
+        checkedPersons = checkedPersons.filter(item => {
+            return item !== "vt"
+        })
     }
     renderAll();
 });
 
-
+document.getElementById("frosti").addEventListener("change", function () {
+    if (!this.checked) {
+        checkedPersons.push("fj")
+    } else {
+        checkedPersons = checkedPersons.filter(item => {
+            return item !== "fj"
+        })
+    }
+    renderAll();
+});
 
 // Reset a particular histogram
 window.reset = function (i) {
-    charts[i].filter(null);
+    // charts[i].filter(null);
     renderAll();
 };

@@ -37,7 +37,7 @@ function processFileInMemory(goodies, person) {
             lat = Number(lat.toFixed(6))
             lng = Number(lng.toFixed(6));
             let newObj = {
-                speed: speed,
+                // speed: speed,
                 lat: lat,
                 lng: lng,
                 usr: person,

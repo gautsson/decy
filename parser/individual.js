@@ -1,23 +1,36 @@
 const convert = require("xml-js");
 const fs = require("fs");
 
-let oldDirectory = "pallitcx";
-let newDirectory = "./" + oldDirectory + "_new/";
+function start() {
+    let newDirectory = "./new"
+    let prefix = "data"
+    let dirs = ["vt", "tg", "pg", "fj"];
+    let pts = [];
 
-let pts = [];
-var distanceOffset = 0;
+    if (!fs.existsSync(newDirectory)) {
+        fs.mkdirSync(newDirectory);
+    }
+    dirs.forEach(dir => {
+        let newPts = processPerson(prefix + "/", dir);
+        pts = pts.concat(newPts)
 
-function processFile(goodies) {
+        fs.writeFileSync(newDirectory +  "/" + dir + ".js", "var points = " + JSON.stringify(pts));
+        console.log("Done with " + dir + "\n")
+        pts = []
+    })
+    console.log("\nDone with all")
+}
+
+function processFileInMemory(goodies, person) {
+    let pts = [];
     let id = 0;
-    let currentDistance = 0;
+
     goodies.forEach(goodie => {
         if (goodie.Position) {
             let time = goodie.Time._text;
             let lat = Number(goodie.Position.LatitudeDegrees._text);
             let lng = Number(goodie.Position.LongitudeDegrees._text);
             let elev = goodie.AltitudeMeters ? Number(goodie.AltitudeMeters._text) : 0;
-            currentDistance = distanceOffset + (Number(goodie.DistanceMeters._text)/1000)
-            // console.log(currentDistance)
             let pwr = 0;
             let speed = 0;
             if (goodie.Extensions["ns3:TPX"]) {
@@ -27,13 +40,17 @@ function processFile(goodies) {
             else if (goodie.Extensions.TPX) {
                 speed = goodie.Extensions.TPX.Speed ? Number(goodie.Extensions.TPX.Speed._text) * 3.6 : 0;
             }
-            speed = speed.toFixed(2)
-            lat = lat.toFixed(6)
-            lng = lng.toFixed(6)
+            if (pwr === NaN) {
+                pwr = 0
+            }
+            speed = Number(speed.toFixed(2))
+            lat = Number(lat.toFixed(6))
+            lng = Number(lng.toFixed(6));
+            elev = Number(elev.toFixed(0));
             let cad = goodie.Cadence ? Number(goodie.Cadence._text) : 0;
             let hr = goodie.HeartRateBpm ? Number(goodie.HeartRateBpm.Value._text) : 0;
     
-            let newObj =  {id: id, elev: elev, speed: speed, lat: lat, lng: lng, cad: cad, heart_rate: hr, time: time, dist: currentDistance}
+            let newObj =  {id: id, elev: elev, speed: speed, lat: lat, lng: lng, cad: cad, heart_rate: hr, time: time}
             if (goodie.Extensions["ns3:TPX"] && goodie.Extensions["ns3:TPX"]["ns3:Watts"]) {
                 newObj.pwr = pwr;
             }
@@ -42,39 +59,47 @@ function processFile(goodies) {
             id += 1;
         }
     })
-    distanceOffset = currentDistance;
+    return pts;
 }
 
+function processPerson(prefix, person) {
+    console.log("Starting with: " + person)
+    // initialize values for person
+    let pts = [];
+    let distance = 0;
+    let time = 0;
 
+    // get all files for person
+    let filenames = fs.readdirSync(prefix + person);
 
-if (!fs.existsSync(newDirectory)) {
-    fs.mkdirSync(newDirectory);
+    filenames.forEach((filename, idx) => {
+        idx += 1;
+        let currentPoints = [];
+
+        let data = fs.readFileSync(prefix + person + "/" + filename);
+        let result = convert.xml2json(data, {
+            compact: true,
+            spaces: 4
+        });
+
+        let activity = JSON.parse(result).TrainingCenterDatabase.Activities.Activity;
+        if (Array.isArray(activity.Lap)) {
+            activity.Lap.forEach((lap) => {
+                let newPoints = processFileInMemory(lap.Track.Trackpoint, person)
+                currentPoints = currentPoints.concat(newPoints)
+                distance = distance + Number(lap.DistanceMeters._text) 
+                time = time + Number(lap.TotalTimeSeconds._text)
+            })
+        } 
+        else {
+            currentPoints = processFileInMemory(activity.Lap.Track.Trackpoint, person)
+            distance = distance + Number(activity.Lap.DistanceMeters._text) 
+            time = time + Number(activity.Lap.TotalTimeSeconds._text)
+        }
+        pts = pts.concat(currentPoints);
+    })
+
+    return pts
 }
 
-let filenames = fs.readdirSync("./" + oldDirectory);
-console.log(filenames)
-
-filenames.forEach((filename, idx) => {
-    idx += 1;
-    console.log(idx)
-    let data = fs.readFileSync("./" + oldDirectory + "/" + filename);
-    let result = convert.xml2json(data, {
-        compact: true,
-        spaces: 4
-    });
-
-    let activity = JSON.parse(result).TrainingCenterDatabase.Activities.Activity;
-    let goodies = "";
-    if (Array.isArray(activity.Lap)) {
-        activity.Lap.forEach((lap) => {
-            // goodies = lap.Track.Trackpoint
-            processFile(lap.Track.Trackpoint)
-        })
-    } else {
-        // goodies = activity.Lap.Track.Trackpoint
-        processFile(activity.Lap.Track.Trackpoint)
-    }
-
-})
-fs.writeFileSync(newDirectory + oldDirectory + "All.js", "var points = " + JSON.stringify(pts));
-console.log("\nDone with " + oldDirectory)
+start();
