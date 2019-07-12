@@ -3,10 +3,10 @@ const fs = require("fs");
 
 function start() {
     let prefix = "data"
-    let dirs = ["vidar", "valdi", "palli", "frosti"];
+    let dirs = ["vt", "tg", "pg", "fj"];
 
     dirs.forEach(dir => {
-        processPerson("./" + prefix + "/" + dir);
+        processPerson(prefix + "/" + dir);
     })
 }
 
@@ -53,9 +53,6 @@ function processPerson(person) {
 
     // get all files for person
     let filenames = fs.readdirSync("./" + person);
-    // console.log("Filenames:\n")
-    // console.log(filenames)
-    // console.log("\n")
 
     filenames.forEach((filename, idx) => {
         idx += 1;
@@ -90,6 +87,13 @@ function processPerson(person) {
     let maxCad = 0;
     let maxElev = 0;
     let maxPwr = 0;
+    let avgHr = 0;
+    let avgCad = 0;
+    let avgPwr = 0;
+
+    let hrPtsQty = 0;
+    let pwrPtsQty = 0;
+    let cadPtsQty = 0;
 
     pts.forEach(point => {
         if (point.speed > maxSpeed) {
@@ -107,6 +111,20 @@ function processPerson(person) {
         if (point.pwr && point.pwr > maxPwr) {
             maxPwr = point.pwr
         }
+
+        if (point.heart_rate && point.heart_rate > 30 && point.heart_rate < 200) {
+            avgHr = avgHr + point.heart_rate
+            hrPtsQty = hrPtsQty + 1
+        }
+        if (point.cad && point.cad > 10) {
+            avgCad = avgCad + point.cad
+            cadPtsQty = cadPtsQty + 1
+        }
+        if (point.pwr && point.pwr > 10) {
+            avgPwr = avgPwr + point.pwr
+            pwrPtsQty = pwrPtsQty + 1
+        }
+
     })
 
     console.log("")
@@ -115,10 +133,13 @@ function processPerson(person) {
     console.log("Max cadence: " + maxCad);
     console.log("Max elev: " + maxElev);
     console.log("Max power: " + maxPwr);
+    console.log("Average speed: " + (distance/1000)/(time/(60*60)))
+    console.log("Average Heart Rate: " + avgHr / hrPtsQty)
+    console.log("Average cadence: " + avgCad / cadPtsQty)
+    console.log("Average power: " + avgPwr / pwrPtsQty)
     console.log("Time: " + time/(60*60) + " hours")
     console.log("Rest: " + (43.77 - time/(60*60)))
     console.log("Distance: " + distance/1000 + " km")
-    console.log("Average speed: " + (distance/1000)/(time/(60*60)))
     console.log("\nDone with " + person + "\n")
 }
 
