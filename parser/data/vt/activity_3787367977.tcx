@@ -3833,7 +3833,7 @@
             <AltitudeMeters>63.400001525878906</AltitudeMeters>
             <DistanceMeters>2527.35009765625</DistanceMeters>
             <HeartRateBpm>
-              <Value>149</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>87</Cadence>
             <Extensions>
@@ -3852,7 +3852,7 @@
             <AltitudeMeters>63.20000076293945</AltitudeMeters>
             <DistanceMeters>2539.60009765625</DistanceMeters>
             <HeartRateBpm>
-              <Value>166</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>89</Cadence>
             <Extensions>
@@ -3871,7 +3871,7 @@
             <AltitudeMeters>64.0</AltitudeMeters>
             <DistanceMeters>2551.800048828125</DistanceMeters>
             <HeartRateBpm>
-              <Value>175</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>88</Cadence>
             <Extensions>
@@ -3890,7 +3890,7 @@
             <AltitudeMeters>63.0</AltitudeMeters>
             <DistanceMeters>2564.0</DistanceMeters>
             <HeartRateBpm>
-              <Value>181</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>85</Cadence>
             <Extensions>
@@ -3909,7 +3909,7 @@
             <AltitudeMeters>64.0</AltitudeMeters>
             <DistanceMeters>2576.1298828125</DistanceMeters>
             <HeartRateBpm>
-              <Value>185</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>87</Cadence>
             <Extensions>
@@ -3928,7 +3928,7 @@
             <AltitudeMeters>63.0</AltitudeMeters>
             <DistanceMeters>2588.25</DistanceMeters>
             <HeartRateBpm>
-              <Value>191</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>88</Cadence>
             <Extensions>
@@ -3947,7 +3947,7 @@
             <AltitudeMeters>62.0</AltitudeMeters>
             <DistanceMeters>2600.320068359375</DistanceMeters>
             <HeartRateBpm>
-              <Value>195</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>85</Cadence>
             <Extensions>
@@ -3966,7 +3966,7 @@
             <AltitudeMeters>62.400001525878906</AltitudeMeters>
             <DistanceMeters>2612.340087890625</DistanceMeters>
             <HeartRateBpm>
-              <Value>196</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>87</Cadence>
             <Extensions>
@@ -3985,7 +3985,7 @@
             <AltitudeMeters>64.0</AltitudeMeters>
             <DistanceMeters>2624.239990234375</DistanceMeters>
             <HeartRateBpm>
-              <Value>199</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>87</Cadence>
             <Extensions>
@@ -4004,7 +4004,7 @@
             <AltitudeMeters>64.0</AltitudeMeters>
             <DistanceMeters>2636.260009765625</DistanceMeters>
             <HeartRateBpm>
-              <Value>199</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>83</Cadence>
             <Extensions>
@@ -4023,7 +4023,7 @@
             <AltitudeMeters>63.599998474121094</AltitudeMeters>
             <DistanceMeters>2648.1298828125</DistanceMeters>
             <HeartRateBpm>
-              <Value>200</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>85</Cadence>
             <Extensions>
@@ -4042,7 +4042,7 @@
             <AltitudeMeters>61.79999923706055</AltitudeMeters>
             <DistanceMeters>2659.919921875</DistanceMeters>
             <HeartRateBpm>
-              <Value>200</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>86</Cadence>
             <Extensions>
@@ -4061,7 +4061,7 @@
             <AltitudeMeters>61.79999923706055</AltitudeMeters>
             <DistanceMeters>2671.81005859375</DistanceMeters>
             <HeartRateBpm>
-              <Value>200</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>84</Cadence>
             <Extensions>
@@ -4080,7 +4080,7 @@
             <AltitudeMeters>64.0</AltitudeMeters>
             <DistanceMeters>2683.47998046875</DistanceMeters>
             <HeartRateBpm>
-              <Value>200</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>86</Cadence>
             <Extensions>
@@ -4099,7 +4099,7 @@
             <AltitudeMeters>64.4000015258789</AltitudeMeters>
             <DistanceMeters>2695.389892578125</DistanceMeters>
             <HeartRateBpm>
-              <Value>200</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>86</Cadence>
             <Extensions>
@@ -4118,7 +4118,7 @@
             <AltitudeMeters>64.0</AltitudeMeters>
             <DistanceMeters>2707.139892578125</DistanceMeters>
             <HeartRateBpm>
-              <Value>200</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>86</Cadence>
             <Extensions>
@@ -4137,7 +4137,7 @@
             <AltitudeMeters>62.400001525878906</AltitudeMeters>
             <DistanceMeters>2719.010009765625</DistanceMeters>
             <HeartRateBpm>
-              <Value>200</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>84</Cadence>
             <Extensions>
@@ -4156,7 +4156,7 @@
             <AltitudeMeters>62.79999923706055</AltitudeMeters>
             <DistanceMeters>2730.669921875</DistanceMeters>
             <HeartRateBpm>
-              <Value>196</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>84</Cadence>
             <Extensions>
@@ -4175,7 +4175,7 @@
             <AltitudeMeters>63.599998474121094</AltitudeMeters>
             <DistanceMeters>2742.320068359375</DistanceMeters>
             <HeartRateBpm>
-              <Value>173</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>84</Cadence>
             <Extensions>
@@ -4194,7 +4194,7 @@
             <AltitudeMeters>64.0</AltitudeMeters>
             <DistanceMeters>2753.969970703125</DistanceMeters>
             <HeartRateBpm>
-              <Value>164</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>83</Cadence>
             <Extensions>
@@ -4213,7 +4213,7 @@
             <AltitudeMeters>65.19999694824219</AltitudeMeters>
             <DistanceMeters>2765.6201171875</DistanceMeters>
             <HeartRateBpm>
-              <Value>160</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>83</Cadence>
             <Extensions>
@@ -4232,7 +4232,7 @@
             <AltitudeMeters>63.79999923706055</AltitudeMeters>
             <DistanceMeters>2777.260009765625</DistanceMeters>
             <HeartRateBpm>
-              <Value>154</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>85</Cadence>
             <Extensions>
@@ -4251,7 +4251,7 @@
             <AltitudeMeters>64.0</AltitudeMeters>
             <DistanceMeters>2789.0</DistanceMeters>
             <HeartRateBpm>
-              <Value>146</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>84</Cadence>
             <Extensions>
@@ -4270,7 +4270,7 @@
             <AltitudeMeters>62.79999923706055</AltitudeMeters>
             <DistanceMeters>2800.820068359375</DistanceMeters>
             <HeartRateBpm>
-              <Value>142</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>84</Cadence>
             <Extensions>
@@ -4289,7 +4289,7 @@
             <AltitudeMeters>63.20000076293945</AltitudeMeters>
             <DistanceMeters>2812.72998046875</DistanceMeters>
             <HeartRateBpm>
-              <Value>139</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>83</Cadence>
             <Extensions>
@@ -4308,7 +4308,7 @@
             <AltitudeMeters>62.79999923706055</AltitudeMeters>
             <DistanceMeters>2824.6298828125</DistanceMeters>
             <HeartRateBpm>
-              <Value>137</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>86</Cadence>
             <Extensions>
@@ -4327,7 +4327,7 @@
             <AltitudeMeters>63.400001525878906</AltitudeMeters>
             <DistanceMeters>2836.570068359375</DistanceMeters>
             <HeartRateBpm>
-              <Value>132</Value>
+              <Value>127</Value>
             </HeartRateBpm>
             <Cadence>86</Cadence>
             <Extensions>

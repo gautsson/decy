@@ -26,7 +26,7 @@ function barChart() {
     var width = x.range()[1];
     var height = y.range()[0];
 
-    if (group.top(2)[0].key === 0) {
+    if (group.top(2)[0].key <10 ) {
       y.domain([0, group.top(2)[1].value]);
     } else {
       y.domain([0, group.top(2)[0].value]);
