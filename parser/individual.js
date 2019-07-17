@@ -1,10 +1,13 @@
 const convert = require("xml-js");
 const fs = require("fs");
 
+let pwrUsers = ["vt", "pg", "om"];
+
 function start() {
     let newDirectory = "./new"
     let prefix = "data"
-    let dirs = ["vt", "tg", "pg", "fj"];
+    let dirs = ["vt", "tg", "pg", "fj", "om"];
+
     let pts = [];
 
     if (!fs.existsSync(newDirectory)) {
@@ -39,9 +42,14 @@ function processFileInMemory(goodies, person) {
             }
             else if (goodie.Extensions.TPX) {
                 speed = goodie.Extensions.TPX.Speed ? Number(goodie.Extensions.TPX.Speed._text) * 3.6 : 0;
+                if (goodie.Extensions.TPX.Watts) {
+                    pwr = goodie.Extensions.TPX.Watts._text;
+                }else {
+                    pwr = 0
+                }
             }
-            if (pwr === NaN) {
-                pwr = 0
+            else {
+                pwr = 0;
             }
             speed = Number(speed.toFixed(2))
             lat = Number(lat.toFixed(6))
@@ -51,12 +59,14 @@ function processFileInMemory(goodies, person) {
             let hr = goodie.HeartRateBpm ? Number(goodie.HeartRateBpm.Value._text) : 0;
     
             let newObj =  {id: id, elev: elev, speed: speed, lat: lat, lng: lng, cad: cad, heart_rate: hr, time: time}
-            if (goodie.Extensions["ns3:TPX"] && goodie.Extensions["ns3:TPX"]["ns3:Watts"]) {
+
+            if (pwrUsers.includes(person)) {
                 newObj.pwr = pwr;
             }
- 
+   
             pts.push(newObj);
             id += 1;
+            pwr = 0;
         }
     })
     return pts;

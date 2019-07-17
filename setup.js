@@ -18,7 +18,7 @@ var lngDimension;
 var idDimension;
 var idGrouping;
 var all;
-var checkedPersons = ["pg", "vt", "fj", "tg"]
+var checkedPersons = ["pg", "vt", "fj", "tg", "om"]
 
 function init() {
     initMap();
@@ -92,6 +92,9 @@ function initMap() {
                 color = "#42d4f4"
             } else if (points[i].usr === "fj") {
                 color = "#000000"
+            }
+            else if (points[i].usr === "om") {
+                color = "#FF1493"
             }
         }
 
@@ -180,6 +183,17 @@ document.getElementById("valdi").addEventListener("change", function () {
     } else {
         checkedPersons = checkedPersons.filter(item => {
             return item !== "tg"
+        })
+    }
+    renderAll();
+});
+
+document.getElementById("oli").addEventListener("change", function () {
+    if (!this.checked) {
+        checkedPersons.push("om")
+    } else {
+        checkedPersons = checkedPersons.filter(item => {
+            return item !== "om"
         })
     }
     renderAll();

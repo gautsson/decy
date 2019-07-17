@@ -4,7 +4,7 @@ const fs = require("fs");
 function start() {
     let newDirectory = "./new"
     let prefix = "data"
-    let dirs = ["vt", "tg", "pg", "fj"];
+    let dirs = ["vt", "tg", "pg", "fj", "om"];
     let pts = [];
 
     if (!fs.existsSync(newDirectory)) {

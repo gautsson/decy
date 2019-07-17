@@ -3,7 +3,7 @@ const fs = require("fs");
 
 function start() {
     let prefix = "data"
-    let dirs = ["vt", "fj", "tg", "pg"];
+    let dirs = ["vt", "fj", "tg", "pg", "om"];
 
     dirs.forEach(dir => {
         processPerson(prefix + "/" + dir);
@@ -29,6 +29,9 @@ function processFileInMemory(goodies) {
             }
             else if (goodie.Extensions.TPX) {
                 speed = goodie.Extensions.TPX.Speed ? Number(goodie.Extensions.TPX.Speed._text) * 3.6 : 0;
+                if (goodie.Extensions.TPX.Watts) {
+                    pwr = goodie.Extensions.TPX.Watts._text;
+                }
             }
             let cad = goodie.Cadence ? Number(goodie.Cadence._text) : 0;
             let hr = goodie.HeartRateBpm ? Number(goodie.HeartRateBpm.Value._text) : 0;
@@ -41,7 +44,10 @@ function processFileInMemory(goodies) {
                 minElev = elev;
             }
             let newObj =  {id: id, elev: elev, speed: speed, lat: lat, lng: lng, cad: cad, heart_rate: hr, time: time }
-            if (goodie.Extensions["ns3:TPX"] && goodie.Extensions["ns3:TPX"]["ns3:Watts"]) {
+            if (goodie.Extensions["ns3:TPX"] && goodie.Extensions["ns3:TPX"]["ns3:Watts"] && pwr !== undefined) {
+                newObj.pwr = pwr;
+            }
+            if (goodie.Extensions.TPX && goodie.Extensions.TPX.Watts && pwr !== undefined) {
                 newObj.pwr = pwr;
             }
  
@@ -133,7 +139,7 @@ function processPerson(person) {
         if (point.elev > maxElev) {
             maxElev = point.elev
         }
-        if (point.pwr && point.pwr > maxPwr) {
+        if (point.pwr && Number(point.pwr) > Number(maxPwr)) {
             maxPwr = point.pwr
         }
 
@@ -145,8 +151,8 @@ function processPerson(person) {
             avgCad = avgCad + point.cad
             cadPtsQty = cadPtsQty + 1
         }
-        if (point.pwr && point.pwr > 10) {
-            avgPwr = avgPwr + point.pwr
+        if (Number(point.pwr) && Number(point.pwr) > 10) {
+            avgPwr = avgPwr + Number(point.pwr)
             pwrPtsQty = pwrPtsQty + 1
         }
 
